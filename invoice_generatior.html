@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invoice Generator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="heading">Invoice Generator</h1>
+        <div id="containter">
+            <div id="cont">
+                <div id="heading" style="font-size:30px;padding-top:35px;color:white;">
+                    Invoice Creator
+                </div>
+                <div id="heading2">Thanks for choosing goodcorp,LLCI </div>
+            </div>
+            <div display:inline>
+            <button id="wash-btn" class="btn">Wash Car:$10</button>
+            <button id="mow-btn" class="btn">Mow Lawn:$20</button>
+            <button id="pull-btn" class="btn">pull Weeds:$30</button>
+            </div>
+            <div id="tasks">
+                <div class="task-prices">
+                    <span class="heading">TASK</span>
+                    <span class="heading">TOTAL</span>
+                </div>
+            <div id="task-list-container">
+                <!-- <div class="task-list" id="taskList">
+                     <span><button id="remove-btn">btn</button></span>
+                     <span></span>
+                  </div>
+                 <div class="task-list">
+                     <span>Mow Lawn</span>
+                     <span>$20</span>
+                  </div>
+                  <div class="task-list">
+                     <span>Pull Weeds</span>
+                     <span>$30</span>
+                  </div>     -->   
+             </div>  
+         
+             <div class="border">
+            </div>
+            
+            
+            <div class="notes-container">
+                <div class="notes">
+                    <span>NOTES</span>
+                    <span>TOTAL AMOUNT</span>
+                </div>
+                
+                
+            <div class="notes">
+                <span id="note"><!--We accept cash, credit card, or PayPal--></span>
+                <span id="total-amt">$0</span>
+           </div>
+           <div>
+            <button id="send-btn">Send invoice</button>
+        </div>
+       
+        </div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
